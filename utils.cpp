@@ -38,3 +38,17 @@ vector<vector<float>> transpose(<vector<vector<float>>& V) {
     }        
     return VV;
 }
+
+vector<vector<float>> zeros(int sz1, int sz2) {
+    vector<vector<float>> Z(sz1, vector<float>(sz2, 0.));
+    return Z;
+}
+
+vector<vector<float>> zeros(int sz) {
+    vector<vector<float>> Z(sz, vector<float>(sz, 0.));
+    return Z;
+}
+
+
+
+
